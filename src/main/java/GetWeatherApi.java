@@ -19,7 +19,7 @@ public class GetWeatherApi {
         JSONArray timeArr = new JSONArray(); //JSON ARRAY to store timestamp and values.
         JSONArray valueArr = new JSONArray();
 
-        String dt = "2020-12-29";  // Start date - 1, As we will add =1 day when we start with first API Call
+        String dt = "2020-12-29";  // Start date - 1, As we will add +1 day when we start with first API Call
 
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 
